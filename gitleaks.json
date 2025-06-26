@@ -1,0 +1,23 @@
+[
+ {
+  "RuleID": "slack-webhook-url",
+  "Description": "Discovered a Slack Webhook, which could lead to unauthorized message posting and data leakage in Slack channels.",
+  "StartLine": 3,
+  "EndLine": 3,
+  "StartColumn": 19,
+  "EndColumn": 95,
+  "Match": "https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX",
+  "Secret": "https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX",
+  "File": "models/index.js",
+  "SymlinkFile": "",
+  "Commit": "9c508d12b8e73c61af231778054b91c29079fb90",
+  "Link": "https://github.com/EdivaldoCostaLimaJr/dvna-sast-validate/blob/9c508d12b8e73c61af231778054b91c29079fb90/models/index.js#L3",
+  "Entropy": 3.4009645,
+  "Author": "EdivaldoCostaLimaJr",
+  "Email": "edivaldocostadv@gmail.com",
+  "Date": "2025-06-26T02:49:56Z",
+  "Message": "adiciona tokens",
+  "Tags": [],
+  "Fingerprint": "9c508d12b8e73c61af231778054b91c29079fb90:models/index.js:slack-webhook-url:3"
+ }
+]
